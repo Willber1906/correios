@@ -1,0 +1,29 @@
+body{
+
+    background-color: yellow;
+    background-position:
+    img
+}
+
+box{
+
+    width: 40%;
+    padding: 20px;
+    
+
+}
+
+button{
+     
+        width: 40%;
+        padding: 10px;
+        background-color: #4aa5e2;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    
+}
