@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><h1>Consulta de CEP</h1><br/><br/>
-    <label for="cepInput">Digite o CEP:</label><br/><br/>
-    <input type="text" id="cepInput"><br/><br/>
-    <button onclick="buscarEndereco()">Buscar</button><br/><br/>
-    <div id="endereco"></div>
-    </center>
+    <section class="mainSection">
+    <h1>Consulta de CEP</h1>
+    <div class="input-container">
+        <input type="text" id="cepInput" placeholder="Digite seu CEP">
+        <button class="buttonCep" onclick="buscarEndereco()">Buscar</button>
+    </div>
+
+    <div id="endereco"> </div>
+</section>
 
     <script>
         function buscarEndereco() {
@@ -33,8 +35,5 @@
             .catch(error => console.error('Erro:', error));
         }
     </script>
-
-
- 
 </body>
 </html>

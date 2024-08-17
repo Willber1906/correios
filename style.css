@@ -1,29 +1,52 @@
+h1{
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;    
+}
 body{
+    height: 100vh;
+    background-image: url(./Images/7841ca34582457.56d60ee2cf0f8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+ }
 
-    background-color: yellow;
-    background-position:
-    img
+.mainSection{
+    max-width: 430px;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 34px 36px 36.51px;
+    box-sizing: border-box;
+    font-family: inherit;
+    background: #ffffff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3)
+}
+.input-container{
+    position: relative;
+    display: flex;
+    width:340px;
 }
 
-box{
-
-    width: 40%;
-    padding: 20px;
-    
-
-}
-
-button{
-     
+.buttonCep{
         width: 40%;
-        padding: 10px;
-        background-color: #4aa5e2;
-        color: #fff;
         font-size: 16px;
         font-weight: bold;
-        border: none;
         border-radius: 5px;
+        right: 0;
+        top: 0;
+        height: 100%;
+        border: none;
+        background-color: #044c74;
+        color: white;
         cursor: pointer;
-        transition: background-color 0.3s;
-    
+        padding: 2.2px;
+        margin: 2px;
+}
+.buttonCep:hover{
+opacity: 0.5;
 }
